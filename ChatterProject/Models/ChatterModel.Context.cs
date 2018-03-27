@@ -25,7 +25,5 @@ namespace ChatterProject.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Chat> Chats { get; set; }
-        public virtual DbSet<Like> Likes { get; set; }
     }
 }
